@@ -9,20 +9,18 @@ A React Native Django Arduino Project
 
       npx create-expo-app medisyncApp
       cd medisyncApp
-      
-      npx expo install react-native-ble-plx @config-plugins/react-native-ble-plx expo-device react-native-base64
 
-      npx expo install expo-camera
-
-      npm install @react-navigation/native @react-navigation/native-stack @react-navigation/bottom-tabs react-native-vector-icons
-      
-      npm install expo-secure-store@12.3.1
-
-      npm install eas-cli 
-
+      npm install
       npx expo prebuild
-
       npx expo start
+
+Manual library dependencies install
+
+      npx expo install react-native-ble-plx @config-plugins/react-native-ble-plx expo-device react-native-base64
+      npx expo install expo-camera
+      npm install @react-navigation/native @react-navigation/native-stack @react-navigation/bottom-tabs react-native-vector-icons
+      npm install expo-secure-store@12.3.1
+      npm install eas-cli 
 
 Remember change Django server address to In ```medisyncApp > src > components > globalContext.js```
 
