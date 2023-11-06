@@ -4,14 +4,16 @@ A React Native Django Arduino Project
 ---
 
 ## Install React Native
-      nvm install 18.1.0
-      nvm use 18.1.0
+      nvm install 18.1.0      Do this only once!!!!
+      nvm use 18.1.0          Do this only once!!!!
 
       cd medisyncApp
 
       npm install
       npx expo prebuild
       npx expo start
+
+      change sdk.dir=C\:\\Users\\user\\AppData\\Local\\Android\\Sdk in android/local.properties
 
 Manual library dependencies install
 
