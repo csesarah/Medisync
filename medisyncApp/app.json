@@ -15,8 +15,7 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.medisyncApp"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
@@ -34,12 +33,11 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "react-native-ble-plx",
-      "@config-plugins/react-native-ble-plx"
+      "react-native-ble-plx"
     ],
     "extra": {
       "eas": {
-        "projectId": "23ab2db6-2c45-4e1d-8236-4abf7137d404"
+        "projectId": "d0088099-8b38-45ba-bac5-253b64a8ae2b"
       }
     }
   }
