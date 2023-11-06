@@ -4,6 +4,8 @@ A React Native Django Arduino Project
 ---
 
 ## Install React Native
+      install nvm for windows
+
       nvm install 18.1.0      Do this only once!!!!
       nvm use 18.1.0          Do this only once!!!!
 
@@ -11,9 +13,11 @@ A React Native Django Arduino Project
 
       npm install
       npx expo prebuild
-      npx expo start
+      
+      change sdk.dir=C\:\\Users\\user\\AppData\\Local\\Android\\Sdk in android/local.properties (user is your windows user)
 
-      change sdk.dir=C\:\\Users\\user\\AppData\\Local\\Android\\Sdk in android/local.properties
+      npx expo run:android
+
 
 Manual library dependencies install
 
