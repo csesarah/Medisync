@@ -3,7 +3,8 @@ A React Native Django Arduino Project
 
 ---
 
-## Install React Native
+## Install React Native (use WSL 1 not WSL 2)
+      In powershell: wsl --set-version <distro name> 1   where <distro name> could be Ubuntu-20.04
       nvm install 18.1.0
       nvm use 18.1.0
 
@@ -11,7 +12,12 @@ A React Native Django Arduino Project
 
       npm install
       npx expo prebuild
-      npx expo start
+
+      Create an EAS account
+      npm install -g eas-cli@0.60.0
+      eas account:login
+      Type in username & password
+      npx expo start (do not use --tunnel)
 
 Manual library dependencies install
 
@@ -61,6 +67,3 @@ Export app
 ## Hardware
 ### Arduino Nano 33 BLE
 Upload ```medisyncHardware.ino```
-
-
-  
