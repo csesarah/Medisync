@@ -5,8 +5,8 @@ import * as ExpoDevice from "expo-device";
 import base64 from "react-native-base64";
 
 const DEVICE_NAME = "Medisync"
-const SENSOR_UUID = "0000180C-0000-1000-8000-00805F9B34FB"; //convert 16-bit UUID from Arduino to 128-bit
-const SENSOR_CHARACTERISTIC = "00002A56-0000-1000-8000-00805F9B34FB"; //convert 16-bit UUID from Arduino to 128-bit
+const SENSOR_UUID = "ac147497-dbdb-47b3-82ea-d40dec2e4c1a"; //convert 16-bit UUID from Arduino to 128-bit
+const SENSOR_CHARACTERISTIC = "176a23c5-8ad9-4210-a522-b4d95aa9cec7"; //convert 16-bit UUID from Arduino to 128-bit
 
 function useBLE() {
     const bleManager = useMemo(() => new BleManager(), [])

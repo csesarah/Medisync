@@ -5,7 +5,7 @@ const Context = createContext()
 
 const Provider = ({ children }) => {
 
-    const [domain] = useState("http://10.0.2.2:8000") // django 
+    const [domain] = useState("http://medisync.pythonanywhere.com") // django 
     const [isLoggedIn, setIsLoggedIn] = useState(false)
     const [userObj, setUserObj] = useState()
 

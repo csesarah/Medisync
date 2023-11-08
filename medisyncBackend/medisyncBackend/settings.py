@@ -149,5 +149,6 @@ JWT_AUTH = {
     'JWT_ALLOW_REFRESH': True,
 }
 
-ALLOWED_HOSTS = ['10.0.2.2', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['10.0.2.2', 'localhost', '127.0.0.1', '*']
 
+CORS_ORIGIN_ALLOW_ALL = True

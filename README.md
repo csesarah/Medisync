@@ -39,6 +39,7 @@ Debugging
 
 Export app
 
+      react-native bundle --platform android --dev false --entry-file node_modules/expo/AppEntry.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
       npx cross-env EAS_NO_VCS=1 eas build --profile development --platform android
       npx cross-env EAS_NO_VCS=1 eas build --profile development --platform ios
 
